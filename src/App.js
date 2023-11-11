@@ -4,111 +4,111 @@ import "./style.css";
 
 const images = [
   {
-    src: "/images/super nova.jpg",
+    src: "/images/super nova.svg",
     width: "30%",
     height: "30%",
-    alt: "super nova.jpg",
+    alt: "super nova.svg",
     caption: "Super nova pattern",
   },
   {
-    src: "/images/color splash.jpg",
+    src: "/images/color splash.svg",
     width: "30%",
     height: "30%",
-    alt: "color splash.jpg",
+    alt: "color splash.svg",
     caption: "Color splash pattern",
   },
   {
-    src: "/images/imaging work.jpg",
+    src: "/images/imaging work.svg",
     width: "30%",
     height: "30%",
-    alt: "imaging work.jpg",
-    caption: "Box pattern",
-  },
-  {
-    src: "/images/imaging work - fourth.jpg",
-    width: "30%",
-    height: "30%",
-    alt: "imaging work - fourth.jpg",
+    alt: "imaging work.svg",
     caption: "Imaging work",
   },
   {
-    src: "/images/chocolate bliss.jpg",
+    src: "/images/imaging work - fourth.svg",
     width: "30%",
     height: "30%",
-    alt: "chocolate bliss.jpg",
+    alt: "imaging work - fourth.svg",
+    caption: "Imaging work",
+  },
+  {
+    src: "/images/chocolate bliss.svg",
+    width: "30%",
+    height: "30%",
+    alt: "chocolate bliss.svg",
     caption: "Chocolate bliss logo",
   },
   {
-    src: "/images/innovative tech-second.jpg",
+    src: "/images/innovative tech-second.svg",
     width: "30%",
     height: "30%",
-    alt: "innovative tech-second.jpg",
+    alt: "innovative tech-second.svg",
     caption: "Innovative tech logo",
   },
   {
-    src: "/images/websitedesignkarratha.com.jpg",
+    src: "/images/websitedesignkarratha.svg",
     width: "30%",
     height: "30%",
-    alt: "websitedesignkarratha.com.jpg",
+    alt: "websitedesignkarratha.svg",
     caption: "Website design karratha logo",
   },
   {
-    src: "/images/copper.jpg",
+    src: "/images/copper.svg",
     width: "30%",
     height: "30%",
-    alt: "copper.jpg",
+    alt: "copper.svg",
     caption: "Copper logo",
   },
   {
-    src: "/images/dove productions.jpg",
+    src: "/images/dove productions.svg",
     width: "30%",
     height: "30%",
-    alt: "dove productions.jpg",
+    alt: "dove productions.svg",
     caption: "Dove productions logo",
   },
 
   {
-    src: "/images/karouss.jpg",
+    src: "/images/karouss.svg",
     width: "30%",
     height: "30%",
-    alt: "karouss.jpg",
+    alt: "karouss.svg",
     caption: "Karouss logo",
   },
   {
-    src: "/images/artistic commerce.jpg",
+    src: "/images/artistic commerce.svg",
     width: "30%",
     height: "30%",
-    alt: "artisitic commerce.jpg",
+    alt: "artisitic commerce.svg",
     caption: "Artistic commerce logo",
   },
   {
-    src: "/images/bathroom city.jpg",
+    src: "/images/bathroom city.svg",
     width: "30%",
     height: "30%",
-    alt: "bathroom city.jpg",
+    alt: "bathroom city.svg",
     caption: "Bathroom city logo",
   },
 
   {
-    src: "/images/arkyd.jpg",
+    src: "/images/arkyd.svg",
     width: "30%",
     height: "30%",
-    alt: "arkyd.jpg",
+    alt: "arkyd.svg",
     caption: "Arkyd telescope picture",
   },
   {
-    src: "/images/centgames.com.jpg",
+    src: "/images/centgames.svg",
     width: "30%",
     height: "30%",
-    alt: "centgames.com.jpg",
+    alt: "centgames.svg",
     caption: "1centgames.com logo",
   },
   {
-    src: "/images/box.jpg",
+    src: "/images/box.svg",
     width: "30%",
     height: "30%",
-    alt: "light.jpg",
-    caption: "Light pattern",
+    alt: "light.svg",
+    caption: "Box pattern",
   },
 ];
 
@@ -119,7 +119,7 @@ function App() {
     // Simulate some asynchronous operation (loading images)
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 100);
   }, []);
 
   return (
@@ -127,7 +127,10 @@ function App() {
       <h1 className="h1">Graphics work portfolio</h1>
       {loading ? (
         // Display a loading message while images are loading
-        <p>Loading images...</p>
+        <div className="loading-container">
+          <div className="spinner"></div>
+          <p>Loading images...</p>
+        </div>
       ) : (
         // Display the images when loading is complete
         images.map((image, index) => <Image key={index} {...image} />)
