@@ -12,30 +12,6 @@ const images = [
     loading: "lazy";
   },
   {
-    src: "/images/color splash.svg",
-    width: "30%",
-    height: "30%",
-    alt: "color splash.svg",
-    caption: "Color splash pattern",
-    loading: "lazy";
-  },
-  {
-    src: "/images/imaging work.svg",
-    width: "30%",
-    height: "30%",
-    alt: "imaging work.svg",
-    caption: "Imaging work",
-    loading: "lazy";
-  },
-  {
-    src: "/images/imaging work - fourth.svg",
-    width: "30%",
-    height: "30%",
-    alt: "imaging work - fourth.svg",
-    caption: "Imaging work",
-    loading: "lazy";
-  },
-  {
     src: "/images/chocolate bliss.svg",
     width: "30%",
     height: "30%",
@@ -60,6 +36,22 @@ const images = [
     loading: "lazy";
   },
   {
+    src: "/images/imaging work.svg",
+    width: "30%",
+    height: "30%",
+    alt: "imaging work.svg",
+    caption: "Imaging work",
+    loading: "lazy";
+  },
+  {
+    src: "/images/imaging work - fourth.svg",
+    width: "30%",
+    height: "30%",
+    alt: "imaging work - fourth.svg",
+    caption: "Imaging work",
+    loading: "lazy";
+  },
+  {
     src: "/images/copper.svg",
     width: "30%",
     height: "30%",
@@ -75,7 +67,14 @@ const images = [
     caption: "Dove productions logo",
     loading: "lazy";
   },
-
+  {
+    src: "/images/color splash.svg",
+    width: "30%",
+    height: "30%",
+    alt: "color splash.svg",
+    caption: "Color splash pattern",
+    loading: "lazy";
+  },
   {
     src: "/images/karouss.svg",
     width: "30%",
