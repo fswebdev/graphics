@@ -9,6 +9,7 @@ const images = [
     height: "30%",
     alt: "super nova.svg",
     caption: "Super nova pattern",
+    loading: "lazy";
   },
   {
     src: "/images/color splash.svg",
@@ -16,6 +17,7 @@ const images = [
     height: "30%",
     alt: "color splash.svg",
     caption: "Color splash pattern",
+    loading: "lazy";
   },
   {
     src: "/images/imaging work.svg",
@@ -23,6 +25,7 @@ const images = [
     height: "30%",
     alt: "imaging work.svg",
     caption: "Imaging work",
+    loading: "lazy";
   },
   {
     src: "/images/imaging work - fourth.svg",
@@ -30,6 +33,7 @@ const images = [
     height: "30%",
     alt: "imaging work - fourth.svg",
     caption: "Imaging work",
+    loading: "lazy";
   },
   {
     src: "/images/chocolate bliss.svg",
@@ -37,6 +41,7 @@ const images = [
     height: "30%",
     alt: "chocolate bliss.svg",
     caption: "Chocolate bliss logo",
+    loading: "lazy";
   },
   {
     src: "/images/innovative tech-second.svg",
@@ -44,6 +49,7 @@ const images = [
     height: "30%",
     alt: "innovative tech-second.svg",
     caption: "Innovative tech logo",
+    loading: "lazy";
   },
   {
     src: "/images/websitedesignkarratha.svg",
@@ -51,6 +57,7 @@ const images = [
     height: "30%",
     alt: "websitedesignkarratha.svg",
     caption: "Website design karratha logo",
+    loading: "lazy";
   },
   {
     src: "/images/copper.svg",
@@ -58,6 +65,7 @@ const images = [
     height: "30%",
     alt: "copper.svg",
     caption: "Copper logo",
+    loading: "lazy";
   },
   {
     src: "/images/dove productions.svg",
@@ -65,6 +73,7 @@ const images = [
     height: "30%",
     alt: "dove productions.svg",
     caption: "Dove productions logo",
+    loading: "lazy";
   },
 
   {
@@ -73,6 +82,7 @@ const images = [
     height: "30%",
     alt: "karouss.svg",
     caption: "Karouss logo",
+    loading: "lazy";
   },
   {
     src: "/images/artistic commerce.svg",
@@ -80,6 +90,7 @@ const images = [
     height: "30%",
     alt: "artisitic commerce.svg",
     caption: "Artistic commerce logo",
+    loading: "lazy";
   },
   {
     src: "/images/bathroom city.svg",
@@ -87,6 +98,7 @@ const images = [
     height: "30%",
     alt: "bathroom city.svg",
     caption: "Bathroom city logo",
+    loading: "lazy";
   },
 
   {
@@ -95,6 +107,7 @@ const images = [
     height: "30%",
     alt: "arkyd.svg",
     caption: "Arkyd telescope picture",
+    loading: "lazy";
   },
   {
     src: "/images/centgames.svg",
@@ -102,6 +115,7 @@ const images = [
     height: "30%",
     alt: "centgames.svg",
     caption: "1centgames.com logo",
+    loading: "lazy";
   },
   {
     src: "/images/box.svg",
@@ -109,6 +123,7 @@ const images = [
     height: "30%",
     alt: "light.svg",
     caption: "Box pattern",
+    loading: "lazy";
   },
 ];
 
